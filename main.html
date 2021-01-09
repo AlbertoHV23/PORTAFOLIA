@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio | Alberto Hernandez</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<header>
+    <a href="#" class="logo">Portafolio</a>
+    <div class="toggle">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Skil Set</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </div>
+</header>
+
+    <section class="banner">
+        <div class="textBx">
+            <H2>Hello, I'm <br> <span>Alberto Hernandez.</span></H2>
+            <h3>I'm a Full Stack developer.</h3>
+            <a href="" class="btn">ABOUT ME</a>
+        </div>
+    </section>
+
+    <section class="about">
+    <div class="heading">
+        <h2>Abot me</h2>
+        <div class="content">
+        <div class="contentBx w50">
+            <h3>I'm a FULL STACK developer.</h3>
+            <p>
+                My name is Alberto Daniel Hernandez Villanueva, I am 21 years old.
+                I am a LMAD career student on the FCFCM faculty.
+                Currently I am in the seventh semester and I specialize in web programming. 
+                <br><br>
+                Throughout my degree I have done some school web programming projects and 
+                I have the basic knowledge to be able to make a web page from the front end to the back end.
+                </p>
+        </div> 
+        <div class="w50">
+            <img src="/PORTAFOLIA/assets/img/img1.jpg" alt="">
+        </div>
+    </div>
+    </div>
+    </section>
+
+    <section class="languages">
+        <div class="heading white">
+            <h2>Skils Set</h2>
+            <p>These are all the skills that I have acquired over time</p>
+        </div>
+        <div class="content">
+            <div class="languagesBx">
+                <img src="/PORTAFOLIA/assets/img/html.svg" alt="">
+                <h2>HTML</h2>
+            </div>
+            <div class="languagesBx">
+                <img src="/PORTAFOLIA/assets/img/css.svg" alt="">
+                <h2>CSS</h2>
+            </div>
+            <div class="languagesBx">
+                <img src="/PORTAFOLIA/assets/img/bootstrap.svg" alt="">
+                <h2>BOOTSTRAP</h2>
+            </div>
+            <div class="languagesBx">
+                <img src="/PORTAFOLIA/assets/img/jquery.svg" alt="">
+                <h2>JQUERY</h2>
+            </div>
+            <div class="languagesBx">
+                <img src="/PORTAFOLIA/assets/img/gsap.svg" alt="">
+                <h2>GSAP</h2>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="portafolio">
+        <div class="heading">
+            <h2>Portafolio</h2>
+            <p>These are some school projects that I have done.</p>
+        </div>
+        <div class="content">
+            <div class="portafolioBx">
+                <img src="assets/img/product1.jpg" alt="">
+            </div>
+            <div class="portafolioBx">
+                <img src="assets/img/product2.jpg" alt="">
+            </div>
+            <div class="portafolioBx">
+                <img src="assets/img/product3.jpg" alt="">
+            </div>
+            <div class="portafolioBx">
+                <img src="assets/img/product4.jpg" alt="">
+            </div>
+            <div class="heading ">
+                <a href="" class=" btn">View more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="heading white">
+            <h2>Contact</h2>
+            <p>These are some school projects that I have done.</p>
+        </div>
+        <div class="content">
+            <div class="contentInfo">
+                <h3>Contact info</h3>
+                <div class="contentInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Av. Pedro de Alba S/N,
+                                 <br> Ciudad Universitaria, 66455
+                                 <br> San Nicolás de los Garza, N.L.</p>
+                        </div>
+                    </div>  
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>8119024150.</p>
+                        </div>
+                    </div> 
+
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>albertho0.hdv@gmail.com</p>
+                        </div>
+                    </div> 
+                </div>
+
+            </div>
+
+            <div class="FormBx">
+                
+                <form action="">
+                    <h3>Message me</h3>
+                <input type="text" name="" id="" placeholder="Full name">
+                <input type="email" name="" id="" placeholder="Email">
+                <textarea rows="" cols="" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send">
+            </form>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <script type="text/javascript">
+    window.addEventListener('scroll',function (){
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky',window.scrollY > 0)
+
+    })
+
+    </script>
+</body>
+</html>
